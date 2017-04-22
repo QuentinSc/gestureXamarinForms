@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:testGesture"
+             x:Class="testGesture.MainPage">
+
+    <StackLayout Orientation="Vertical">
+        <local:UserControl WidthRequest="80" HeightRequest="80">
+            <local:UserControl.GestureRecognizers>
+                <TapGestureRecognizer
+                        Tapped="TapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" />
+            </local:UserControl.GestureRecognizers>
+        </local:UserControl>
+        <local:UserControl WidthRequest="80" HeightRequest="80">
+            <local:UserControl.GestureRecognizers>
+                <TapGestureRecognizer
+                        Tapped="TapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" />
+            </local:UserControl.GestureRecognizers>
+        </local:UserControl>
+        <local:UserControl WidthRequest="80" HeightRequest="80">
+            <local:UserControl.GestureRecognizers>
+                <TapGestureRecognizer
+                        Tapped="TapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" />
+            </local:UserControl.GestureRecognizers>
+        </local:UserControl>
+        <local:UserControl WidthRequest="80" HeightRequest="80">
+            <local:UserControl.GestureRecognizers>
+                <TapGestureRecognizer
+                        Tapped="TapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" />
+            </local:UserControl.GestureRecognizers>
+        </local:UserControl>
+        <local:UserControl WidthRequest="80" HeightRequest="80">
+            <local:UserControl.GestureRecognizers>
+                <TapGestureRecognizer
+                        Tapped="TapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" />
+            </local:UserControl.GestureRecognizers>
+        </local:UserControl>
+    </StackLayout>
+
+</ContentPage>
